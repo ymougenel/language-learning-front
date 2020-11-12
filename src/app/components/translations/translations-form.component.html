@@ -1,0 +1,11 @@
+<table *ngIf="translations">
+
+  <tr>
+    <th>Shimaore</th>
+    <th>Français</th>
+  </tr>
+  <tr *ngFor="let translation of translations">
+    <td>{{ translation.word1 }}</td>
+    <td>{{ translation.word2 }}</td>
+  </tr>
+</table>
