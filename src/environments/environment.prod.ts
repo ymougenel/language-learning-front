@@ -1,3 +1,7 @@
 export const environment = {
-  production: true
+  production: true,
+  api: {
+    baseUrl: 'https://ymougenel.tech/language-learning-back'
+  },
+
 };
