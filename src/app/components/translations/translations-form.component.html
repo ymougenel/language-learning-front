@@ -1,16 +1,81 @@
 <div *ngIf="translations">
-<table >
-  <thead>
-  <tr>
-    <th>Shimaore</th>
-    <th>Français</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr *ngFor="let translation of translations">
-    <td>{{ translation.word1 }}</td>
-    <td>{{ translation.word2 }}</td>
-  </tr>
-  </tbody>
-</table>
+  <table class="table">
+    <thead class="thead-dark">
+    <tr>
+      <th scope="col">Shimaore</th>
+      <th scope="col">Français</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let translation of translations; index as i;" scope="row">
+      <!--WORD1-->
+      <td>
+        <!--EDITION MODE WORD1-->
+        <div *ngIf="!correctionMode">
+          <div *ngIf="translation.word1 === null">{{answers[i].word1}}</div>
+          <div *ngIf="translation.word1 !== null">
+            <input id="w1_{{translation.id}}" [(ngModel)]="translations[i].word1">
+          </div>
+        </div>
+
+        <!--CORRECTION MODE WORD1-->
+        <div *ngIf="correctionMode">
+          <!--WORD1 SOLUTION-->
+          <div *ngIf="translation.word1===null; else notSOLUTION">
+            <p class="solution">{{answers[i].word1}}</p>
+          </div>
+          <ng-template #notSOLUTION>
+            <!--RIGHT ANWSER-->
+            <div *ngIf="translation.word1.toUpperCase() === answers[i].word1.toUpperCase()">
+              <p class="correct">{{translation.word1}}</p>
+            </div>
+            <!--WRONG ANSWER-->
+            <div
+              *ngIf="translation.word1 !== null && translation.word1.toUpperCase() !== answers[i].word1.toUpperCase()"
+              class="correction">
+              <p class="incorrect">{{translation.word1}}</p> ->
+              <p class="correct">{{answers[i].word1}}</p>
+            </div>
+          </ng-template>
+
+
+        </div>
+      </td>
+      <!--WORD2-->
+      <td>
+        <!--EDITION MODE WORD2-->
+        <div *ngIf="!correctionMode">
+          <div *ngIf="translation.word2 === null">{{answers[i].word2}}</div>
+          <div *ngIf="translation.word2 !== null">
+            <input id="w2_{{translation.id}}" [(ngModel)]="translations[i].word2">
+          </div>
+        </div>
+        <!--CORRECTION MODE WORD1-->
+        <div *ngIf="correctionMode">
+          <!--WORD2 SOLUTION-->
+          <div *ngIf="translation.word2===null; else notSOLUTION">
+            <p class="solution">{{answers[i].word2}}</p>
+          </div>
+
+          <ng-template #notSOLUTION>
+            <!--W2 RIGHT ANWSER-->
+            <div *ngIf="translation.word2.toUpperCase() === answers[i].word2.toUpperCase()">
+              <p class="correct">{{translation.word2}}!</p>
+            </div>
+            <!--W2 WRONG ANSWER-->
+            <div
+              *ngIf="translation.word2 !== null && translation.word2.toUpperCase() !== answers[i].word2.toUpperCase()"
+              class="correction">
+              <p class="incorrect">{{translation.word2}}</p> ->
+              <p class="correct">{{answers[i].word2}}</p>
+            </div>
+          </ng-template>
+
+        </div>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+  <button type="button" class="btn btn-outline-success" (click)="validateTranslations()">✔</button>
+
 </div>

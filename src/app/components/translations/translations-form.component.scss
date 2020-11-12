@@ -1,0 +1,14 @@
+:host {
+  .correct {
+    color: green;
+  }
+
+  .incorrect {
+    color: red;
+    text-decoration: line-through
+  }
+
+  .correction {
+    display: flex;
+  }
+}
