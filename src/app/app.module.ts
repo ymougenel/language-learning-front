@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import {CoreModule} from "./core/core.module";
 import {AppRoutingModule} from "./app-routing.module";
 import { TranslationsFormComponent } from './components/translations/translations-form.component';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { TranslationsFormComponent } from './components/translations/translation
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule,
     CoreModule,
   ],
