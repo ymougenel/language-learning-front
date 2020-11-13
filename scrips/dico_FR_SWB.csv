@@ -13,8 +13,7 @@ SWB,FR,Kumi,Dix,nombre
 SWB,FR,Shirini,Vingt,nombre
 SWB,FR,uBala,Fermer,verbe
 SWB,FR,uEndra,Aller,verbe
-SWB,FR,uTria,Metre,verbe
-SWB,FR,uRengo,Prendre,verbe
+SWB,FR,uTria,Mettre,verbe
 SWB,FR,uDya,Boire,verbe
 SWB,FR,uLugua,Parler,verbe
 SWB,FR,Bahari ya shiwari,la mer est calme,expression
@@ -41,7 +40,7 @@ SWB,FR,uLawa,sortir,verbe
 SWB,FR,Nitsaha,Je veux,conjugaison
 SWB,FR,Chitrou,Truc,??
 SWB,FR,Nimbé,Donne moi,conjugaison
-SWB,FR,Renga,Prends,conjugaison
+SWB,FR,uRenga,Prends,conjugaison
 SWB,FR,Hima,Leve toi,conjugaison
 SWB,FR,Trovi,banane verte
 SWB,FR,Massidza,banane jaune
