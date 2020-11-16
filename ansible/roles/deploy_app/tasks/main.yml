@@ -1,0 +1,10 @@
+---
+
+- name: Launch Language Learning front
+  docker_container:
+    name: language-learning-front
+    pull: yes
+    image: "slonepi/language-learning-front:{{ LANGUAGE_LEARNING_APP_VERSION}}"
+    state: started
+    ports:
+    - "8095:80"
