@@ -1,0 +1,11 @@
+version: '3.5'
+
+services:
+  language-learning-nginx:
+    image: slonepi/language-learning-front:1.0.0
+    container_name: language-learning-nginx
+    build:
+      dockerfile: docker/Dockerfile
+      context: ./
+    ports:
+      - 80:80
