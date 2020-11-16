@@ -17,10 +17,10 @@ SWB,FR,uTria,Mettre,verbe
 SWB,FR,uDya,Boire,verbe
 SWB,FR,uLugua,Parler,verbe
 SWB,FR,Bahari ya shiwari,la mer est calme,expression
-SWB,FR,Nyambo titi,Petite terre,Lieu
-SWB,FR,Nyambo bole,Grande terre,Lieu
-SWB,FR,Lashite,La jetée,Lieu
-SWB,FR,Bazari,Le marché,Lieu
+SWB,FR,Nyambo titi,Petite terre,lieu
+SWB,FR,Nyambo bole,Grande terre,lieu
+SWB,FR,Lashite,La jetée,lieu
+SWB,FR,Bazari,Le marché,lieu
 SWB,FR,Gari,voiture,Transport
 SWB,FR,Tsi ji,Je ne comprends pas,phrase
 SWB,FR,Kaweri,Au revoir,politesse
@@ -38,16 +38,44 @@ SWB,FR,Tsi ono,J'ai vu,conjugaison
 SWB,FR,uSoukouma,Pousser,verbe
 SWB,FR,uLawa,sortir,verbe
 SWB,FR,Nitsaha,Je veux,conjugaison
-SWB,FR,Chitrou,Truc,??
+SWB,FR,Chitrou,Truc,objet
 SWB,FR,Nimbé,Donne moi,conjugaison
-SWB,FR,uRenga,Prends,conjugaison
+SWB,FR,uRenga,Prendre,verbe
 SWB,FR,Hima,Leve toi,conjugaison
 SWB,FR,Trovi,banane verte
 SWB,FR,Massidza,banane jaune
-SWB,FR,Mtsana,bonne,date
-SWB,FR,Mwema,journée,date
+SWB,FR,Mtsana,journée,date
+SWB,FR,Mwema,bonne,date
 SWB,FR,Uku,soir,politesse
-SWB,FR,Pavi na Pavi,expression
-SWB,FR,Mwaha,Année,date
+SWB,FR,Pavi na Pavi,Petit à petie,expression
+SWB,FR,mWaha,Année,date
+SWB,FR,Maji,Eau,element
+SWB,FR,Moro,Feu,element
+SWB,FR,Muji,Ville,lieu
+SWB,FR,Chitsoi,Tete,corps
+SWB,FR,Soura,Visage,corps
+SWB,FR,Mhono,Main,corps
+SWB,FR,Pied,Moundrou,corps
+SWB,FR,Mimba,Ventre,corps
+SWB,FR,Matso,Yeux,corps
+SWB,FR,Gnolé,Cheveux,corps
+SWB,FR,Hagno,Bouche,corps
+SWB,FR,Kyo,Oreilles,corps
+SWB,FR,Tsi,Je,pronom
+SWB,FR,Ou,Tu,pronom
+SWB,FR,A,Il,pronom
+SWB,FR,Ri,Nous,pronom
+SWB,FR,Mou,Vous,pronom
+SWB,FR,Wa,Ils,pronom
+SWB,FR,Assoubouhi,Matin,date
+SWB,FR,Mfoumoraru,Lundi,date
+SWB,FR,Mfoumogné,Mardi,date
+SWB,FR,Mfoumotsano,Mercredi,date
+SWB,FR,Yahowa,Jeudi,date
+SWB,FR,Djimwa,Vendredi,date
+SWB,FR,Mfoumotsi,Samedi,date
+SWB,FR,Mfoumovili,Dimanche,date
+
+
 
 
