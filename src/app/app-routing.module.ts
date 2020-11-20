@@ -1,11 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {TranslationsFormComponent} from "./components/translations/translations-form.component";
+import {TranslationsFormComponent} from "./components/quizz/translations-form.component";
+import {TranslationsListComponent} from "./components/translations-list/translations-list.component";
 
 
 const routes: Routes = [
-  {path: '', redirectTo: '/translations', pathMatch: 'full'},
-  {path: 'translations', component: TranslationsFormComponent},
+  {path: '', redirectTo: '/quizz', pathMatch: 'full'},
+  {path: 'quizz', component: TranslationsFormComponent},
+  {path: 'translations', component: TranslationsListComponent},
 ];
 
 @NgModule({
