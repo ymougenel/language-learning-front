@@ -1,57 +1,58 @@
 LANGUAGE1,LANGUAGE2,WORD1,WORD2,CATEGORY
-SWB,FR,Kavu,Zero,nombre
-SWB,FR,Moja,Un,nombre
-SWB,FR,Mbili,Deux,nombre
-SWB,FR,Traru,Trois,nombre
-SWB,FR,Ne,Quatre,nombre
-SWB,FR,Tsano,Cinq,nombre
-SWB,FR,Sita,Six,nombre
-SWB,FR,Saba,Sept,nombre
-SWB,FR,Nane,Huit,nombre
-SWB,FR,Shendra,Neuf,nombre
-SWB,FR,Kumi,Dix,nombre
-SWB,FR,Shirini,Vingt,nombre
-SWB,FR,uBala,Fermer,verbe
-SWB,FR,uEndra,Aller,verbe
-SWB,FR,uTria,Mettre,verbe
-SWB,FR,uDya,Boire,verbe
-SWB,FR,uLugua,Parler,verbe
-SWB,FR,Bahari ya shiwari,la mer est calme,expression
-SWB,FR,Nyambo titi,Petite terre,lieu
-SWB,FR,Nyambo bole,Grande terre,lieu
-SWB,FR,Lashite,La jetée,lieu
-SWB,FR,Bazari,Le marché,lieu
-SWB,FR,Gari,voiture,Transport
-SWB,FR,Tsi ji,Je ne comprends pas,phrase
-SWB,FR,Kaweri,Au revoir,politesse
-SWB,FR,Kisaje,Combien,question
-SWB,FR,Tafadali,SVP,politesse
-SWB,FR,Gege,Bonjour,politesse
-SWB,FR,Ndjema,Ca va merci,politesse
+SWB,FR,Kavu,Zero,nombres
+SWB,FR,Moja,Un,nombres
+SWB,FR,Mbili,Deux,nombres
+SWB,FR,Traru,Trois,nombres
+SWB,FR,Ne,Quatre,nombres
+SWB,FR,Tsano,Cinq,nombres
+SWB,FR,Sita,Six,nombres
+SWB,FR,Saba,Sept,nombres
+SWB,FR,Nane,Huit,nombres
+SWB,FR,Shendra,Neuf,nombres
+SWB,FR,Kumi,Dix,nombres
+SWB,FR,Shirini,Vingt,nombres
+SWB,FR,uBala,Fermer,verbes
+SWB,FR,uEndra,Aller,verbes
+SWB,FR,uTria,Mettre,verbes
+SWB,FR,uDya,Boire,verbes
+SWB,FR,uLugua,Parler,verbes
+SWB,FR,Bahari ya shiwari,la mer est calme,expressions
+SWB,FR,Nyambo titi,Petite terre,lieux
+SWB,FR,Nyambo bole,Grande terre,lieux
+SWB,FR,Lashite,La jetée,lieux
+SWB,FR,Bazari,Le marché,lieux
+SWB,FR,Gari,voiture,transports
+SWB,FR,Tsi ji,Je ne comprends pas,phrases
+SWB,FR,Kaweri,Au revoir,politesses
+SWB,FR,Kisaje,Combien,questions
+SWB,FR,Havi,Où,questions
+SWB,FR,Tafadali,SVP,politesses
+SWB,FR,Gege,Bonjour,politesses
+SWB,FR,Ndjema,Ca va merci,politesses
 SWB,FR,Coco,Grand mère,famille
 SWB,FR,Bacoco,Grand père,famille
-SWB,FR,Udu,Noix de coco
+SWB,FR,Udu,Noix de coco,aliments
 SWB,FR,Ngouwo,Vetements,maison
-SWB,FR,Zougouha,chercher,verbe
-SWB,FR,Tsi para,j'ai trouvé,conjugaison
-SWB,FR,Tsi ono,J'ai vu,conjugaison
-SWB,FR,uSoukouma,Pousser,verbe
-SWB,FR,uLawa,sortir,verbe
-SWB,FR,Nitsaha,Je veux,conjugaison
+SWB,FR,Zougouha,chercher,verbes
+SWB,FR,Tsi para,j'ai trouvé,conjugaisons
+SWB,FR,Tsi ono,J'ai vu,conjugaisons
+SWB,FR,uSoukouma,Pousser,verbes
+SWB,FR,uLawa,sortir,verbes
+SWB,FR,Nitsaha,Je veux,conjugaisons
 SWB,FR,Chitrou,Truc,objet
-SWB,FR,Nimbé,Donne moi,conjugaison
-SWB,FR,uRenga,Prendre,verbe
-SWB,FR,Hima,Leve toi,conjugaison
-SWB,FR,Trovi,banane verte
-SWB,FR,Massidza,banane jaune
-SWB,FR,Mtsana,journée,date
-SWB,FR,Mwema,bonne,date
-SWB,FR,Uku,soir,politesse
-SWB,FR,Pavi na Pavi,Petit à petie,expression
-SWB,FR,mWaha,Année,date
-SWB,FR,Maji,Eau,element
-SWB,FR,Moro,Feu,element
-SWB,FR,Muji,Ville,lieu
+SWB,FR,Nimbé,Donne moi,conjugaisons
+SWB,FR,uRenga,Prendre,verbes
+SWB,FR,Hima,Leve toi,conjugaisons
+SWB,FR,Trovi,banane verte,aliments
+SWB,FR,Massidza,banane jaune,aliments
+SWB,FR,Mtsana,journée,dates
+SWB,FR,Mwema,bonne,dates
+SWB,FR,Uku,soir,politesses
+SWB,FR,Pavi na Pavi,Petit à petie,expressions
+SWB,FR,mWaha,Année,dates
+SWB,FR,Maji,Eau,elements
+SWB,FR,Moro,Feu,elements
+SWB,FR,Muji,Ville,lieux
 SWB,FR,Chitsoi,Tete,corps
 SWB,FR,Soura,Visage,corps
 SWB,FR,Mhono,Main,corps
@@ -61,20 +62,20 @@ SWB,FR,Matso,Yeux,corps
 SWB,FR,Gnolé,Cheveux,corps
 SWB,FR,Hagno,Bouche,corps
 SWB,FR,Kyo,Oreilles,corps
-SWB,FR,Tsi,Je,pronom
-SWB,FR,Ou,Tu,pronom
-SWB,FR,A,Il,pronom
-SWB,FR,Ri,Nous,pronom
-SWB,FR,Mou,Vous,pronom
-SWB,FR,Wa,Ils,pronom
-SWB,FR,Assoubouhi,Matin,date
-SWB,FR,Mfoumoraru,Lundi,date
-SWB,FR,Mfoumogné,Mardi,date
-SWB,FR,Mfoumotsano,Mercredi,date
-SWB,FR,Yahowa,Jeudi,date
-SWB,FR,Djimwa,Vendredi,date
-SWB,FR,Mfoumotsi,Samedi,date
-SWB,FR,Mfoumovili,Dimanche,date
+SWB,FR,Tsi,Je,pronoms
+SWB,FR,Ou,Tu,pronoms
+SWB,FR,A,Il,pronoms
+SWB,FR,Ri,Nous,pronoms
+SWB,FR,Mou,Vous,pronoms
+SWB,FR,Wa,Ils,pronoms
+SWB,FR,Assoubouhi,Matin,dates
+SWB,FR,Mfoumoraru,Lundi,dates
+SWB,FR,Mfoumogné,Mardi,dates
+SWB,FR,Mfoumotsano,Mercredi,dates
+SWB,FR,Yahowa,Jeudi,dates
+SWB,FR,Djimwa,Vendredi,dates
+SWB,FR,Mfoumotsi,Samedi,dates
+SWB,FR,Mfoumovili,Dimanche,dates
 
 
 
