@@ -1,0 +1,19 @@
+<div>
+  <div *ngFor="let category of translations | keyvalue">
+    <div class="card-container">
+      <div class="card">
+        <div class="card-header">
+          {{category.key}}
+        </div>
+        <div class="card-body">
+            <div *ngFor="let translationss of category.value">
+                {{translationss.word1}} - {{translationss.word2}}
+            </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

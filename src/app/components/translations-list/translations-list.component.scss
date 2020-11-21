@@ -1,0 +1,29 @@
+:host{
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card-header {
+    background-color: rgba(0, 40, 255, 0.23);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+
+  .card-body {
+    padding-bottom: 1px;
+    padding-right: 1px;
+  }
+
+
+  .card {
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.14) !important;
+    width: 20rem;
+    margin: 15px;
+  }
+}
